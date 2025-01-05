@@ -54,7 +54,7 @@ Developed by: RegisterNumber: 24003757
 ![DE11 (2)](https://github.com/user-attachments/assets/04a74da4-0585-4565-b38d-e9c513615ffb)
 
 **TIMING DIAGRAM FOR IP COUNTER**
-![DE11 (3)](https://github.com/user-attachments/assets/e53349ce-d955-4a71-954a-2829ad80bf7e)
+![exp 11 wf](https://github.com/user-attachments/assets/eee93ab5-e289-4000-b578-58a80386cacf)
 
 **TRUTH TABLE**
 
