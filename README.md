@@ -65,13 +65,14 @@ Developed by: RegisterNumber: 24003757
 */
 
 **RTL LOGIC UP COUNTER**
-![DE11 (2)](https://github.com/user-attachments/assets/04a74da4-0585-4565-b38d-e9c513615ffb)
+![image](https://github.com/user-attachments/assets/5a1f7f1c-70e9-44df-8c24-f9aa7ef02608)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
 ![image](https://github.com/user-attachments/assets/74c64092-04dd-4146-b3a2-4932ff379141)
 **TRUTH TABLE**
 
-![image](https://github.com/user-attachments/assets/74c64092-04dd-4146-b3a2-4932ff379141)
+![Screenshot 2025-01-06 135949](https://github.com/user-attachments/assets/784765fa-7a83-43b6-aeb9-05048f6a700f)
 
 **RESULTS**
 
