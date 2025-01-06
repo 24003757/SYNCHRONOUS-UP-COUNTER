@@ -46,30 +46,31 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 SISO Shift Register
-```
-module EXP10(clk, sin, q);
-input clk;
-input sin;
-output [3:0] q;
-reg [3:0] q;
-always @(posedge clk)
+/* Program for flipflops and verify its truth table in quartus using Verilog programming. */
+~~~
+module dexp11(out,clk,rstn);
+input clk,rstn;
+output reg [3:0]out;
+always @ (posedge clk)
 begin
-q[0] <= sin;
-q[1] <= q[0];
-q[2] <= q[1];
-q[3] <= q[2];
+   if(!rstn)
+     out<=0;
+   else 
+     out <= out+1;
 end
 endmodule
-```
+~~~
+Developed by : VINOLIA ALAINA . R
 Developed by: RegisterNumber: 24003757
 */
 
 **RTL LOGIC UP COUNTER**
-![image](https://github.com/user-attachments/assets/5a1f7f1c-70e9-44df-8c24-f9aa7ef02608)
+![326162102-04e3c990-074d-4ae5-99d7-5c2b79b4bc3e](https://github.com/04Varsha/SYNCHRONOUS-UP-COUNTER/assets/149035374/029d63a5-f2b9-4546-8040-0cb5d453b02d)
 
 
 **TIMING DIAGRAM FOR IP COUNTER**
-![image](https://github.com/user-attachments/assets/74c64092-04dd-4146-b3a2-4932ff379141)
+![326162203-128de7b7-6e57-42d8-a27e-34600aa0275c](https://github.com/04Varsha/SYNCHRONOUS-UP-COUNTER/assets/149035374/3a23c2cb-db81-4015-b034-fa34a98003dd)
+
 **TRUTH TABLE**
 
 ![Screenshot 2025-01-06 135949](https://github.com/user-attachments/assets/784765fa-7a83-43b6-aeb9-05048f6a700f)
