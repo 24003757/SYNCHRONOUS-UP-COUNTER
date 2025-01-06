@@ -45,8 +45,22 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
-![DE11](https://github.com/user-attachments/assets/38c15de3-a454-44bc-8b09-88acb594253a)
-
+SISO Shift Register
+```
+module EXP10(clk, sin, q);
+input clk;
+input sin;
+output [3:0] q;
+reg [3:0] q;
+always @(posedge clk)
+begin
+q[0] <= sin;
+q[1] <= q[0];
+q[2] <= q[1];
+q[3] <= q[2];
+end
+endmodule
+```
 Developed by: RegisterNumber: 24003757
 */
 
