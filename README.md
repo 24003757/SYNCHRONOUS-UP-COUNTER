@@ -58,8 +58,7 @@ Developed by: RegisterNumber: 24003757
 
 **TRUTH TABLE**
 
-![Screenshot 2025-01-03 082131](https://github.com/user-attachments/assets/2dcd793f-c4c3-4930-a7e0-222d2f52b497)
-
+![image](https://github.com/user-attachments/assets/74c64092-04dd-4146-b3a2-4932ff379141)
 
 **RESULTS**
 
